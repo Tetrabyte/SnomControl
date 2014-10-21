@@ -1,0 +1,13 @@
+SnomControl
+===========
+A General Purpose Control System for Snom VoIP Phones
+
+Currently Comprising of:
+
+- Network Scan
+- Screen Display with Auto Updater
+- Phone Configuration and Control
+- Snom Provisioning via DHCP option 66 TFTP Server
+
+
+
