@@ -34,8 +34,10 @@ $localip=getLocalIp();
 
 
 //gets ip from form once submitted
-$getsubnet = htmlspecialchars($_GET["subnet"]);
-if ($getsubnet == "") {unset ($getsubnet);}
+if(isset($_GET['subnet'])) {
+	$getsubnet = htmlspecialchars($_GET["subnet"]);
+	if ($getsubnet == "") {unset ($getsubnet);}
+}
 if (isset($getsubnet)) {$ipaddress=$getsubnet;} else {$ipaddress="192.168.0.1";} 
 
 // Splits the ip to get the parts and builds a class c subnet.
@@ -47,18 +49,24 @@ $ippart4 = $ipparts['3'];
 $ipsubnet = $ippart1.".".$ippart2.".".$ippart3 ; 
 
 // gets the min host value from url
-$getmin = htmlspecialchars($_GET["min"]);
-if ($getmin == "") {unset ($getmin);}
+if(isset($_GET['min'])) {
+	$getmin = htmlspecialchars($_GET["min"]);
+	if ($getmin == "") {unset ($getmin);}
+}
 if (isset($getmin)) {$miniphost=$getmin;} else {$miniphost = 1 ;} 
 
 // gets the max host from url
-$getmax = htmlspecialchars($_GET["max"]);
-if ($getmax == "") {unset ($getmax);}
+if(isset($_GET['max'])) {
+	$getmax = htmlspecialchars($_GET["max"]);
+	if ($getmax == "") {unset ($getmax);}
+}
 if (isset($getmax)) {$maxiphost=$getmax;} else {$maxiphost = 255 ;} 
 
 // gets the refresh rate from url
-$getrefresh = htmlspecialchars($_GET["refresh"]);
-if ($getrefresh == "") {unset ($getrefresh);}
+if(isset($_GET['refresh'])) {
+	$getrefresh = htmlspecialchars($_GET["refresh"]);
+	if ($getrefresh == "") {unset ($getrefresh);}
+}
 if (isset($getrefresh)) {$refresh=$getrefresh;} else {$refresh = 45 ;} 
 
 ?>
