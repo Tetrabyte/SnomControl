@@ -25,14 +25,6 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 <?php
 
-
-// get local ip is now a redundant function
-
-function getLocalIp()
-{ return gethostbyname(trim(`hostname`)); }
-$localip=getLocalIp();
-
-
 //gets ip from form once submitted
 if(isset($_GET['subnet'])) {
 	$getsubnet = htmlspecialchars($_GET["subnet"]);
