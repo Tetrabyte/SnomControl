@@ -135,7 +135,7 @@ echo "The Current Phone I.P. Address is ".$getipaddress;
 
 <a href="http://<?php echo $getipaddress; ?>/advanced_update.htm?reboot=Reboot" target="my_iframeB">Reboot Phone</a> <br />
 <a href="http://<?php echo $getipaddress; ?>/command.htm?RELEASE_ALL_CALLS" target="my_iframeB">End all ongoing calls</a> <br />
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL" target="my_iframeB">Logoff all identities</a> <br />
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=1,2,3,4,5,6,7,8,9" target="my_iframeB">Logoff all identities (Deletes all settings for identitys)</a> <br />
 <a href="http://<?php echo $getipaddress; ?>/command.htm?REREGISTER=1" target="my_iframeB">Re-register identity 1</a> / 
 <a href="http://<?php echo $getipaddress; ?>/command.htm?REREGISTER=2" target="my_iframeB">2</a> / 
 <a href="http://<?php echo $getipaddress; ?>/command.htm?REREGISTER=3" target="my_iframeB">3</a> / 
@@ -150,7 +150,7 @@ echo "The Current Phone I.P. Address is ".$getipaddress;
 <a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=6" target="my_iframeB">6</a> /
 <a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=7" target="my_iframeB">7</a> /
 <a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=8" target="my_iframeB">8</a> /
-<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=9" target="my_iframeB">9</a> <br />
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=9" target="my_iframeB">9</a> - (Deletes settings for identity) <br />
 
 <a href="http://<?php echo $getipaddress; ?>/command.htm?key_dtmf=1" target="my_iframeB">Remote DTMF Tone 1</a>
 <a href="http://<?php echo $getipaddress; ?>/command.htm?key_dtmf=2" target="my_iframeB">2</a> / 
