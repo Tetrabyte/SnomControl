@@ -142,15 +142,15 @@ echo "The Current Phone I.P. Address is ".$getipaddress;
 <a href="http://<?php echo $getipaddress; ?>/command.htm?REREGISTER=4" target="my_iframeB">4</a> / 
 <a href="http://<?php echo $getipaddress; ?>/command.htm?REREGISTER=5" target="my_iframeB">5</a> <br />
 
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=1" target="my_iframeB">Logoff Line 1</a> / 
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=2" target="my_iframeB">2</a> / 
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=3" target="my_iframeB">3</a> / 
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=4" target="my_iframeB">4</a> / 
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=5" target="my_iframeB">5</a> /
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=6" target="my_iframeB">6</a> /
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=7" target="my_iframeB">7</a> /
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=8" target="my_iframeB">8</a> /
-<a href="http://<?php echo $getipaddress; ?>/command.htm?LOGOFFALL=9" target="my_iframeB">9</a> <br />
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=1" target="my_iframeB">Logoff Line 1</a> / 
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=2" target="my_iframeB">2</a> / 
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=3" target="my_iframeB">3</a> / 
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=4" target="my_iframeB">4</a> / 
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=5" target="my_iframeB">5</a> /
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=6" target="my_iframeB">6</a> /
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=7" target="my_iframeB">7</a> /
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=8" target="my_iframeB">8</a> /
+<a href="http://<?php echo $getipaddress; ?>/info.htm?LOGOFFALL=9" target="my_iframeB">9</a> <br />
 
 <a href="http://<?php echo $getipaddress; ?>/command.htm?key_dtmf=1" target="my_iframeB">Remote DTMF Tone 1</a>
 <a href="http://<?php echo $getipaddress; ?>/command.htm?key_dtmf=2" target="my_iframeB">2</a> / 
